@@ -94,7 +94,7 @@ public class FungiForest {
     }
     
     public static void main(String[] args){
-        Character a = new Character( 1, 1);
+        Character a = new Character();
         CheshireCat c = new CheshireCat();
         FungiForest m = new FungiForest(a, c);
         m.conversation();

@@ -124,7 +124,7 @@ public class Croquet {
     }
 }
 public static void main(String[] args) {
-    Character c = new Character(1,1);
+    Character c = new Character();
     Croquet game = new Croquet(c);
     game.play();
   }

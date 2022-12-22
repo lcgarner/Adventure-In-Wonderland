@@ -37,7 +37,7 @@ public class Wonderland{
         Character character = new Character();
         this.character = character;
         this.fungiForest = new FungiForest(this.character,this.cat);
-        this.tulgeyWoods = new TulgeyWoods(this.character);
+        this.tulgeyWoods = new TulgeyWoods(this.character, this.cat);
         this.rabbitHole = new RabbitHole(this.character);
 
         this.changeLocation = true;
