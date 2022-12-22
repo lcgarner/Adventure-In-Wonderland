@@ -1,4 +1,6 @@
 # Adventure-In-Wonderland
+
+I really enjoyed doing this project! I feel like we did really well with the structure of our game (especially the Character class) because we were able to inherit a lot of functionalities and reuse code. I also feel like we were very creative and had fun with our game. Something we could do better would simply be continuing to make the inferface more user-friendly and adding more features to support the player. My advice to someone doing this project in the future would be to play Zork for a few hours and try to beat it. This really helped me and my partners get a grasp on how these games work. 
  
 1. What was your overall approach to tackling this project?
 My approach to the project was to do some creative writing/journaling to come up with ideas, then check my ideas with my partners, and then code. I find that my code always turns out best when I plan ahead. 
