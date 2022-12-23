@@ -3,7 +3,11 @@
 //import java.util.Random;
 //import java.util.Scanner;
 
-//Introduces Cheshire Cat
+/**
+* Represents Tulgey Woods.
+* @param character the users character.
+* @param cat the Cheshire Cat
+*/
 public class TulgeyWoods{
     //ArrayList<String> areas;
     //int index;
@@ -17,6 +21,7 @@ public class TulgeyWoods{
     /**
      * Constructs Tulgey Woods.
      * @param character the users character.
+     * @param cat the Cheshire Cat
      */
     public TulgeyWoods(Character character, CheshireCat cat){
         //this.index = 0;
@@ -28,9 +33,7 @@ public class TulgeyWoods{
         //floors.add("You strip over a large stick.");
     }
 
-    /**
-    * Prints the conversation between Cheshire Cat and player
-    */
+    /*Prints the conversation between Cheshire Cat and player*/
     public void play(){
 
         System.out.println();

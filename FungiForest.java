@@ -4,7 +4,12 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
 
-//Introduces CATERPILLAR
+/**
+* Represents FungiForest.
+* @param character the users character.
+* @param cat the Cheshire Cat
+* @param inConversation whether the conversation is ongoing
+*/
 public class FungiForest {
     
     Character character;
@@ -14,6 +19,7 @@ public class FungiForest {
     /**
      * Constructs Fungi Forest.
      * @param character the character playing the game
+     * @param cat the Cheshire Cat
      */
     public FungiForest(Character character, CheshireCat cat){
         this.character=character;
@@ -21,10 +27,7 @@ public class FungiForest {
         this.cat = cat;
     }
 
-    /**
-     * Constructs Fungi Forest.
-     * @param character the character playing the game
-     */
+    /*Executes the conversation between player and caterpillar*/
     public void conversation(){
         System.out.println();
 
